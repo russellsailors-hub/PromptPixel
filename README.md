@@ -2,6 +2,10 @@
 
 **One hotkey. Screenshot to clipboard. Paste into any AI.**
 
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F72_clean-brightgreen?logo=virustotal)](https://www.virustotal.com/gui/file/35309aecb044687834e4af1df903c9fd3c31c6157f5477909da950de918de707/detection)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Platform: Windows](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows)](https://github.com/russellsailors-hub/PromptPixel/releases/latest)
+
 PromptPixel is a tiny Windows tool that captures your screen with a single keystroke and drops the image straight onto your clipboard — ready to paste into Claude, ChatGPT, Gemini, Antigravity, VS Code's Claude Code panel, or any app that accepts images.
 
 No Claude Desktop required. No browser extension. No two-step "snip then paste" workflow. Just press the hotkey and paste.
@@ -91,6 +95,20 @@ Open an [issue](https://github.com/russellsailors-hub/PromptPixel/issues) before
 ## License
 
 [MIT](LICENSE) — do whatever you want, just keep the copyright notice. No warranty.
+
+---
+
+## Antivirus & Trust
+
+**PromptPixel scans clean on VirusTotal: [0 / 72 engines flagged](https://www.virustotal.com/gui/file/35309aecb044687834e4af1df903c9fd3c31c6157f5477909da950de918de707/detection).**
+
+Some antivirus tools occasionally flag AutoHotkey-compiled `.exe` files as a precaution because the same compilation technique is used by certain malware families. PromptPixel is open source — every line of source code is in this repository, and you can build the `.exe` yourself with the included [`build.bat`](build.bat) to verify it byte-for-byte.
+
+If your AV ever does flag PromptPixel:
+
+1. View the live [VirusTotal scan](https://www.virustotal.com/gui/file/35309aecb044687834e4af1df903c9fd3c31c6157f5477909da950de918de707/detection) to confirm the current state
+2. Read the source: [`PromptPixel.ahk`](PromptPixel.ahk) — about 300 lines, no obfuscation
+3. Build it yourself from source if you want a binary you compiled with your own toolchain
 
 ---
 
